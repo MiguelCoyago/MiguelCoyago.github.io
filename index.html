@@ -1,51 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>World of Warcraft</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      font-size: 16px;
-      line-height: 1.5;
-      color: #333;
-      background-color: #fff;
-    }
-    
-    h1 {
-      font-size: 24px;
-      margin-top: 0;
-    }
-    
-    h2 {
-      font-size: 20px;
-      margin-top: 0;
-    }
-    
-    p {
-      margin-bottom: 10px;
-    }
-    
-    img {
-      max-width: 100%;
-    }
-    
-    a {
-      text-decoration: none;
-      color: #000088;
-    }
-    
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Warcraft - Información</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        h2 {
+            color: #333;
+        }
+        
+        section {
+            margin-bottom: 30px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>World of Warcraft</h1>
-    <img src="https://i.imgur.com/00000000.jpg" alt="World of Warcraft logo">
-  </header>
-  <main>
-    <h2>About World of Warcraft</h2>
+    <header>
+        <h1>World of Warcraft</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#razas">Razas</a></li>
+                <li><a href="#clases">Clases</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#reinos">Reinos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a World of Warcraft</h2>
+            <p>World of Warcraft es un juego de rol multijugador masivo en línea (MMORPG) desarrollado por Blizzard Entertainment.</p>
+            <img src="https://fontmeme.com/images/World-of-Warcraft-Logo.jpg" alt="Logo de World of Warcraft">
+        </section>
+
+        <section id="razas">
+            <h2>Razas</h2>
+            <ul>
+                <li>Horda:
+                    <ul>
+                        <li>Orcos</li>
+                        <li>No muertos</li>
+                        <li>Tauren</li>
+                    </ul>
+                </li>
+                <li>Allianza:
+                    <ul>
+                        <li>Humanos</li>
+                        <li>Elfos de la noche</li>
+                        <li>Enanos</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="clases">
+            <h2>Clases</h2>
+            <ul>
+                <li>Principales:
+                    <ul>
+                        <li>Druida</li>
+                        <li>Cazador</li>
+                        <li>Mago</li>
+                        <li>Paladin</li>
+                        <li>Sacerdote</li>
+                        <li>Picaro</li>
+			<li>Chamán</li>
+			<li>Brujo</li>
+			<li>Guerrero</li>
+			<li>Cazador de demonios</li>
+			<li>Caballero de la muerte</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+	<section id="historia">
+            <h2>About World of Warcraft</h2>
     <p>World of Warcraft is a massively multiplayer online role-playing game (MMORPG) developed and published by Blizzard Entertainment. Released in November 2004, World of Warcraft was the first massively multiplayer game to achieve widespread popularity. As of December 2019, it is estimated that there are over 110 million active World of Warcraft accounts worldwide.</p>
     <p>The game is set in the fictional world of Azeroth, a land of magic and adventure. Players assume the role of a character, customizing their appearance and abilities, and can explore the world, fight monsters, and complete quests.</p>
     <p>World of Warcraft is a subscription-based game, and players must pay a monthly fee to play. The game is also available in a boxed retail version, which includes a free month of subscription time.</p>
@@ -58,11 +138,4 @@
     </ul>
     <h2>Expansions</h2>
     <p>World of Warcraft has been released in seven expansions since its initial release: The Burning Crusade, Wrath of the Lich King, Cataclysm, Mists of Pandaria, Warlords of Draenor, Legion, and Battle for Azeroth. Each expansion adds new content to the game, such as new zones, quests, and raids.</p>
-    <h2>Reception</h2>
-    <p>World of Warcraft has received critical acclaim since its release. It has won numerous awards, including Game of the Year from several publications. The game has also been a commercial success, with over 30 million copies sold worldwide.</p>
-  </main>
-  <footer>
-    <p>Copyright &copy; 2023 World of Warcraft</p>
-  </footer>
-</body>
-</html>
+        </section>
